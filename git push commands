@@ -1,7 +1,7 @@
 git init
 touch {to create a file}
-git add . or git add *
+git add . or git add * to add a file 
 git status
-git commit -m "your content"
+git commit -m "your content" --to commit the files
 {repo command line}
 git push origin -u master 
