@@ -1,0 +1,13 @@
+yum install docker
+systemctl start docker
+sysytemctl enable dokrer
+docker pull ubuntu
+docker images
+docker ps -a
+docker ps
+docker run -ti {images ID }
+ls 
+exit
+docker run -ti --name maicky {IMAGES ID}
+docker run -ti --name king -m 20m {IMAGES ID}
+docker inspect {CONTAINER ID} OR {IMAGES ID}
