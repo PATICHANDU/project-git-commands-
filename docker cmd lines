@@ -11,3 +11,5 @@ exit
 docker run -ti --name maicky {IMAGES ID}
 docker run -ti --name king -m 20m {IMAGES ID}
 docker inspect {CONTAINER ID} OR {IMAGES ID}
+docker stop $(docker ps -a -q) {to stop}
+docker rm $(docker ps -a -q) {to delete}
