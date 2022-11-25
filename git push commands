@@ -1,0 +1,7 @@
+git init
+touch {to create a file}
+git add . or git add *
+git status
+git commit -m "your content"
+{repo command line}
+git push origin -u master 
