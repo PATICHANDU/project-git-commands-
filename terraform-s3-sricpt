@@ -1,0 +1,14 @@
+provider "aws" {
+  region     = "ap-northeast-1"
+  access_key = "AKIAW64RLDH7WU74EC7D"
+  secret_key = "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"
+}
+
+resource "aws_s3_bucket" "mybucket" {
+  bucket = "miky-babai"
+}
+
+resource "aws_s3_bucket_accelerate_configuration" "example" {
+  bucket = aws_s3_bucket.mybucket.bucket
+  status = "Enabled"
+}
