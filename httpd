@@ -1,0 +1,10 @@
+Yum install httpd -y
+CD /var/www/html
+Wget and copy the link here
+Ls
+Unzip this
+Tar -xvf    to untar
+CD templatemo_563_seo_dream
+Systemctl start httpd
+Systemctl status httpd
+IP address/templatemo_563_seo_dream
